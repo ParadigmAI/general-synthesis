@@ -16,7 +16,7 @@ using its static-export / GitHub Pages path (no server, no form).
 ## Design
 - Off-white `#f4f2ed`, ink `#17181a`, muted `#5c5e62`, rule `#d9d6cf` — tokens in `app/globals.css` `@theme`.
 - Newsreader (serif) for the statement and quote, Inter for the wordmark and body; self-hosted via `next/font`.
-- Logo: `app/logo.tsx` — two overlapping rings (abstract "synthesis", no plant imagery) + uppercase tracked Inter semibold wordmark.
+- Logo: `app/logo.tsx` — option B: two overlapping rings with the shared lens filled (abstract "synthesis", no plant imagery) + uppercase tracked Inter semibold wordmark. The rings meet/part on a 6s infinite loop (founder asked for a never-ending loop; overrides the brief's no-animation default). Static under prefers-reduced-motion. Other explored options live in `docs/design/logo-options.html` (local only, not committed).
 - Favicon: same rings, `app/icon.svg` + `app/favicon.ico` rasterized with a throwaway sharp/to-ico script (not a project dep).
 
 ## Deployment

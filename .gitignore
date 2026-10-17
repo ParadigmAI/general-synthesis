@@ -42,3 +42,4 @@ next-env.d.ts
 
 # internal playbooks (not published)
 /docs/playbooks/
+/docs/design/
