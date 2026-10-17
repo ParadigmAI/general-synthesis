@@ -31,9 +31,8 @@ export default function Home() {
           <p>
             &ldquo;We&rsquo;re starting General Synthesis with a simple
             ambition: to explore what plants could become. It&rsquo;s early.
-            Our focus now is on building the scientific foundations and doing
-            the work properly. We&rsquo;ll share more as that work
-            develops.&rdquo;
+            Our focus now is on the foundations. We&rsquo;ll share more as the
+            work develops.&rdquo;
           </p>
         </blockquote>
       </section>

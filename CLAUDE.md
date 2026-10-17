@@ -6,7 +6,7 @@ Single-page coming-soon site. Built per `docs/playbooks/01-landing-page-and-depl
 using its static-export / GitHub Pages path (no server, no form).
 
 ## Content rules (from the brief — do not relax without the founder asking)
-- Copy is fixed: wordmark, "New possibilities in plant science.", one paragraph, unsigned founder note.
+- Copy is fixed: wordmark, "New possibilities in plant science.", one paragraph, unsigned founder note (last two sentences revised by the founder 2026-10-17).
 - No products, flowers/orchids, specific research, genetic techniques, locations, investors,
   partners, institutions, other ventures, team, lab, results or funding.
 - No personal name, contact info, social links, signup form, navigation or extra sections.
