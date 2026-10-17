@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-paper: #f4f2ed;
+  --color-ink: #17181a;
+  --color-muted: #5c5e62;
+  --color-rule: #d9d6cf;
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-newsreader);
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
