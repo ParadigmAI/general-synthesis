@@ -1,9 +1,11 @@
+import { Logo } from "./logo";
+
 export default function Home() {
   return (
     <div className="mx-auto flex min-h-svh max-w-6xl flex-col px-6 py-8 sm:px-10 sm:py-12 lg:px-16">
       <header>
-        <h1 className="text-[0.9375rem] font-medium tracking-[-0.01em]">
-          General Synthesis
+        <h1>
+          <Logo />
         </h1>
       </header>
 

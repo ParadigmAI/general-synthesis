@@ -16,7 +16,8 @@ using its static-export / GitHub Pages path (no server, no form).
 ## Design
 - Off-white `#f4f2ed`, ink `#17181a`, muted `#5c5e62`, rule `#d9d6cf` — tokens in `app/globals.css` `@theme`.
 - Newsreader (serif) for the statement and quote, Inter for the wordmark and body; self-hosted via `next/font`.
-- Favicon: `app/icon.svg` + `app/favicon.ico` rasterized with a throwaway sharp/to-ico script (not a project dep).
+- Logo: `app/logo.tsx` — two overlapping rings (abstract "synthesis", no plant imagery) + uppercase tracked Inter semibold wordmark.
+- Favicon: same rings, `app/icon.svg` + `app/favicon.ico` rasterized with a throwaway sharp/to-ico script (not a project dep).
 
 ## Deployment
 - Repo: `ParadigmAI/general-synthesis` (public — Pages is free on public repos; org is on the free plan).
