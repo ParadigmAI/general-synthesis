@@ -10,6 +10,8 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: { unoptimized: true },
   basePath,
+  // Plain <video>/<img> src attributes aren't prefixed by Next, so expose it.
+  env: { NEXT_PUBLIC_BASE_PATH: basePath },
   turbopack: {
     rules: {
       "*.css": {
